@@ -109,3 +109,26 @@
 .footer a {
     color: black;
 }
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    border-right: 1px #808080 solid;
+    padding: 0 20px;
+}
+
+.menu li:last-child {
+    border: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
